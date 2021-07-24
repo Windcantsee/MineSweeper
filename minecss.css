@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("Image/Z.png")  ;
+    background-size: cover;
+    float: left;
+    /*opacity: 0.5;*/
+}
+div:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.mineWindow{
+    overflow: auto;
+}
+a:hover{
+    background: url("Image/T.png");
+}
+span{
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    border: solid 1px;
+    background-size: cover;
+    line-height: 30px;
+    float: left;
+}
+#mine{
+    position: absolute;
+    z-index: -1;
+}
+.flag{
+    background: url("Image/flag.png");
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-size: cover;
+}
